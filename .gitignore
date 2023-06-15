@@ -1,0 +1,14 @@
+# Exclude MacOS Finder files.
+.DS_Store
+
+*.user*
+
+*.pyc
+Testing
+CMakeUserPresets.json
+
+# Visual Studio work directory
+.vs/
+
+# Visual Studio Code
+.vscode/

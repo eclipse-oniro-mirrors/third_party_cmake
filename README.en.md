@@ -1,36 +1,42 @@
 # third_party_cmake
 
-#### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+#### Introduction
+CMake is a cross-platform, open-source build system generator.
+For full documentation visit the `CMake Home Page`_ and the
+`CMake Documentation Page`_. The `CMake Community Wiki`_ also
+references useful guides and recipes.
 
-#### Software Architecture
-Software architecture description
+`CMake Home Page`: https://cmake.org
 
-#### Installation
+`CMake Documentation Page`: https://cmake.org/documentation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+`CMake Community Wiki`: https://gitlab.kitware.com/cmake/community/-/wikis/home
 
-#### Instructions
+CMake is maintained and supported by `Kitware`_ and developed in
+collaboration with a productive community of contributors.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+_`Kitware`: http://www.kitware.com/cmake
 
 
-#### Gitee Feature
+#### Background introduced on OpenHarmony
+When IDE develops applications, it usually uses js/ets language, besides, there are some compilation involving cpp files, you need to use cmake toolchain to compile and generate corresponding so, NDK toolchain integrates cmake binary version.
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
+#### compilation tutorial
+```
+mkdir build && cd build
+
+../bootstrap && make
+``` 
+
+Running results
+
+[100%] Built target foo
+#### Developer Contributions and Changes
+
+1. Fork this repository
+2. Create a new branch
+3. Commit code
+4. New Pull Request
+
+Translated with www.DeepL.com/Translator (free version)

@@ -241,8 +241,48 @@ Note:If the text contains special characters|please escape them according to the
                 <filteritem type="filepath" name="Utilities/cmliblzma/COPYING" desc="分发，不参与编译"/>
                 <filteritem type="filepath" name="Source/LexerParser/cmFortranLexer.in.l" desc="分发，不参与编译"/>
                 <filteritem type="filepath" name="Source/LexerParser/cmFortranParser.y" desc="分发，不参与编译"/>
+                <filteritem type="filepath" name="Utilities/Scripts/update-cppdap.bash" desc="说明文件"/>	
+                <filteritem type="filepath" name="Tests/RunCMake/VsNugetPackageRestore/Repository/NuGetTestProject/1.0.0/nugettestproject.nuspec" desc="说明文件"/>	
+                <filteritem type="filepath" name="Help/guide/tutorial/Adding Export Configuration.rst" desc="说明文件"/>	
+                <filteritem type="filepath" name="Help/policy/CMP0145.rst" desc="说明文件"/>	
+                <filteritem type="filepath" name="Help/policy/CMP0133.rst" desc="说明文件"/>	
+                <filteritem type="filepath" name="Tests/RunCMake/CPack/tests/SUGGESTS/test_suggests.spec" desc="说明文件"/>	
+                <filteritem type="filepath" name="Help/guide/tutorial/Packaging an Installer.rst" desc="说明文件"/>	
             </filefilter>
             <filefilter name="binaryFileTypePolicyFilter" desc="二进制文件校验策略的过滤条件" >
+                <filteritem type="filepath" name="Tests/RunCMake/cmake_host_system_information/registry_host64bit.reg" desc="reg文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/cmake_host_system_information/registry_host32bit.reg" desc="reg文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_path/registry_host64bit.reg" desc="reg文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_path/registry_host32bit.reg" desc="reg文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_program/registry_host64bit.reg" desc="reg文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_program/registry_host32bit.reg" desc="reg文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_program/default.64bit/file.exe" desc="exe文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_library/default.32bit/file.lib" desc="lib文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_library/registry_host64bit.reg" desc="reg文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_library/registry_host32bit.reg" desc="reg文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_program/32bit/file.exe" desc="exe文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_library/default.64bit/file.lib" desc="lib文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_program/32bit/file32bit.exe" desc="exe文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_program/default.64bit/file64bit.exe" desc="exe文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_file/registry_host64bit.reg" desc="reg文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_library/default.32bit/file32bit.lib" desc="lib文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_library/default.64bit/file64bit.lib" desc="lib文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_file/registry_host32bit.reg" desc="reg文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_program/64bit/file.exe" desc="exe文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_library/32bit/file.lib" desc="lib文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_package/registry_host64bit.reg" desc="reg文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_library/MSYSTEM_PREFIX/lib/libmsystem_prefix.a" desc="a文件"/>
+                <filteritem type="filepath" name="Tests/CMakeTests/FileUploadInput.png" desc="png文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_library/64bit/file.lib" desc="lib文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_program/default.32bit/file32bit.exe" desc="exe文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_program/64bit/file64bit.exe" desc="exe文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_library/32bit/file32bit.lib" desc="lib文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_library/64bit/file64bit.lib" desc="lib文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/file-DOWNLOAD/input.png" desc="png文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_package/registry_host32bit.reg" desc="reg文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/VsNugetPackageRestore/Repository/NuGetTestProject/1.0.0/nugettestproject.1.0.0.nupkg" desc="nupkg文件"/>
+                <filteritem type="filepath" name="Tests/RunCMake/find_program/default.32bit/file.exe" desc="exe文件"/>
+                <filteritem type="filepath" name="Tests/CPackInnoSetupGenerator/my_bitmap.bmp" desc="bmp文件"/>
                 <filteritem type="filepath" name="Source/QtDialog/Delete16.png" desc="icns文件"/>
                 <filteritem type="filepath" name="Tests/MFC/mfc1/res/mfc1Doc.ico" desc="ico文件"/>
                 <filteritem type="filepath" name="Tests/RunCMake/FindBoost/MockInstalls/1.70.0/lib/libboost_timer.a" desc="a文件"/>

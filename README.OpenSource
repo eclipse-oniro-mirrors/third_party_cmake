@@ -3,8 +3,8 @@
         "Name"                  : "cmake",
         "License"               : "BSD 3 License",
         "License File"          : "Licenses/README.rst",
-        "Version Number"        : "3.20.5",
-        "Owner"                 : "fangting12@huawei.com",
+        "Version Number"        : "3.28.2",
+        "Owner"                 : "wuyuechang3@huawei.com",
         "Upstream URL"          : "https://cmake.org/",
         "Description"           : "CMake is a cross-platform, open-source build system generator"
     }
